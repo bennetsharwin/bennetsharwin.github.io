@@ -2593,3 +2593,95 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Notification Modal Styles */
+#dev-notification-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(30, 30, 30, 0.95);
+  color: #fff;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+}
+#dev-notification-modal .modal-content {
+  background: #232323;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 90vw;
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+#dev-notification-modal .close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+#dev-notification-modal .close-btn:hover {
+  color: #e74c3c;
+}
+#dev-notification-modal .modal-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+#dev-notification-modal .modal-message {
+  font-size: 1.05rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+/* Notification Bar Styles */
+#dev-notification-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: #232323;
+  color: #fff;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-size: 1rem;
+}
+#dev-notification-bar .bar-message {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+#dev-notification-bar .close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: color 0.2s;
+}
+#dev-notification-bar .close-btn:hover {
+  color: #e74c3c;
+}
+
+/* Add margin to body when bar is visible */
+body.has-dev-bar {
+  margin-top: 56px;
+}
+
+/* Remove old modal styles if present */
+#dev-notification-modal { display: none !important; }
