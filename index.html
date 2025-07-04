@@ -1,433 +1,1082 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<!-- SITE TITLE -->
-	<title>Bennet Sharwin</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - SnapFolio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-	<!-- STYLESHEETS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/templatemo-style.css">
-	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
-<!-- 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-Ultra Profile
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-https://templatemo.com/tm-464-ultra-profile
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
--->
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: SnapFolio
+  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
+  * Updated: Jun 13 2025 with Bootstrap v5.3.6
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body data-spy="scroll" data-target="#rock-navigation">
-	<!-- START NAVIGATION -->
-	<div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">
-		<div class="container">
 
-			<div class="navbar-header">
-				<button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">
-					<span class="icon icon-bar"></span>
-					<span class="icon icon-bar"></span>
-					<span class="icon icon-bar"></span>
-				</button>
-				<a href="#" class="navbar-brand">SHARWIN</a>
-			</div>
-			<nav class="collapse navbar-collapse" id="rock-navigation">
-				<ul class="nav navbar-nav navbar-right main-navigation text-uppercase">
-					<li><a href="#home" class="smoothScroll">Home</a></li>
-					<li><a href="#work" class="smoothScroll">My Work</a></li>
-					<li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-					<li><a href="#resume" class="smoothScroll">Resume</a></li>
-					<li><a href="#about" class="smoothScroll">About</a></li>
-					<li><a href="#contact" class="smoothScroll">Contact</a></li>
-				</ul>
-			</nav>
+<body class="index-page">
 
-		</div>
-	</div>
-	<!-- END NAVIGATION -->
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-	<!-- START HOME -->
-	<section id="home" class="templatemo-home">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-2 col-sm-1"></div>
-				<div class="col-md-8 col-sm-10">
-					<h1 class="tm-home-title"><strong>Bennet Sharwin</strong></h1>
-					<h2 class="tm-home-subtitle">CyberSecurity Aspirent</h2>
-					<p>I am an aspiring <strong>Cybersecurity Professional</strong> and <strong>Ethical Hacking Enthusiast</strong> focused on securing systems through <strong>Linux, Networking</strong>, and <strong>AI-driven Automation</strong>. Let us work together to build a safer digital world. Thank you.</p>
-					<a href="#work" class="btn btn-default smoothScroll tm-view-more-btn">Let's Begin</a>
-				</div>
-				<div class="col-md-2 col-sm-1"></div>
-			</div>
-		</div>
-	</section>
-	<!-- END HOME -->
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+          <!--
+          <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          -->
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+      </nav>
 
-	<!-- START work -->
-	<section id="work" class="tm-padding-top-bottom-100">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-offset-1 col-md-11">
-					<h2 class="title">My <strong>Work</strong></h2>						
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="work-wrapper">
-						<i class="fa fa-shield"></i>
-						<h3 class="text-uppercase tm-work-h3">Ethical Hacking</h3>
-						<hr>
-						<p>Hands-on penetration testing, vulnerability scanning, and system hardening to identify and mitigate cybersecurity threats.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="work-wrapper">
-						<i class="fa fa-linux"></i>
-						<h3 class="text-uppercase tm-work-h3">Linux & Networking</h3>
-						<hr>
-						<p>Experienced in configuring and securing Linux environments and managing network infrastructures using practical tools and protocols.</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="work-wrapper">
-						<i class="fa fa-cogs"></i>
-						<h3 class="text-uppercase tm-work-h3">Automation & AI</h3>
-						<hr>
-						<p>Leveraging automation and AI technologies to streamline security workflows, detect anomalies, and enhance system efficiency.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END work -->
+      <div class="social-links text-center">
+        <a href="https://github.com/bennetsharwin" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/bennetsharwin/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/sh4rw1n/" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
 
-<!-- START PORTFOLIO -->
-<section id="portfolio" class="tm-portfolio">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 wow bounce">
-				<div class="title">
-					<h2 class="tm-portfolio-title">My <strong>Portfolio</strong></h2>
-				</div>
+    </div>
 
-				<!-- START ISO SECTION -->
-				<div class="iso-section">
-					<ul class="filter-wrapper clearfix">
-						<!-- <li><a href="#" class="opc-main-bg selected" data-filter="*">All</a></li> -->
-						<li><a href="#" class="opc-main-bg selected" data-filter=".ai">AI</a></li>
-						<li><a href="#" class="opc-main-bg" data-filter=".cybersec">CyberSec</a></li>
-						<li><a href="#" class="opc-main-bg" data-filter=".automation">Automation</a></li>
-						<li><a href="#" class="opc-main-bg" data-filter=".linux">Linux</a></li>
-					</ul>
-					<div class="iso-box-section">
-						<div class="iso-box-wrapper col4-iso-box">
+  </header>
 
-							<!-- Automation Projects (includes n8n) -->
-							<div class="iso-box wordpress automation col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/n8n-1.webp" class="fluid-img" alt="n8n Workflow">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">Security Automation</h3>
-										<p>Orchestrated automated workflows for cybersecurity using n8n and webhooks.</p>
-									</div>
-								</div>
-							</div>
-							<div class="iso-box automation cybersec col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/n8n-2.png" class="fluid-img" alt="n8n Integration">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">Automation Pipelines</h3>
-										<p>Linked security tools with API-based automations in n8n.</p>
-									</div>
-								</div>
-							</div>
-							<div class="iso-box automation col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/n8n-3.png" class="fluid-img" alt="n8n Alerts">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">Automated Alerts</h3>
-										<p>Built logic to automatically notify admins on detection of suspicious behavior.</p>
-									</div>
-								</div>
-							</div>
+  <main class="main">
 
-							<!-- You can continue with other images under existing tags: HTML, Mobile, etc. -->
-							<!-- Example HTML entry below (you can replicate for each image) -->
-							<div class="iso-box ai col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/ai-2.webp" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">Agentic AI</h3>
-										<p>AI agent to autonomously handle tasks and respond intelligently based on contextual inputs.</p>
-									</div>
-								</div>
-							</div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
-							<div class="iso-box ai cybersec col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/ai-cs-1.png" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">AI in cybersecuriity</h3>
-										<p>Leveraged AI to detect threats, analyze anomalies, and enhance real-time cybersecurity defenses.</p>
-									</div>
-								</div>
-							</div>
+      <div class="background-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+      </div>
 
-							<div class="iso-box ai col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/ai-3.webp" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">LLMs</h3>
-										<p>Utilized large language models to generate human-like text, automate workflows, and interpret complex queries.</p>
-									</div>
-								</div>
-							</div>
+      <div class="hero-content">
 
-							<div class="iso-box ai cybersec col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/cs-2.png" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">CIA Triad</h3>
-										<p>Implemented security measures ensuring the confidentiality, integrity, and availability of sensitive data.</p>
-									</div>
-								</div>
-							</div>
+        <div class="container">
+          <div class="row align-items-center">
 
-							<div class="iso-box linux cybersec col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/linux-2.webp" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">Log Analysis</h3>
-										<p>Performed log analysis in Linux to detect anomalies, track system events, and troubleshoot security incidents.</p>
-									</div>
-								</div>
-							</div>
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <div class="hero-text">
+                <h1>Bennet Sharwin</h1>
+                <p class="lead">I'm a <span class="typed" data-typed-items="CyberSecurity Aspirent, Ethical Hacking Enthusiast, Web Developer"></span></p>
+                <p class="description">Securing systems via Linux, networking, and AI automation, with expertise in cloud security.</p>
 
-							<div class="iso-box linux col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/linux-1.jpg" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">Arch Linux</h3>
-										<p>Configured and customized Arch Linux for a minimal, efficient, and highly controlled development environment.</p>
-									</div>
-								</div>
-							</div>
+                <div class="hero-actions">
+                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
 
-							<div class="iso-box linux col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/linux-3.jpg" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">Linux networking</h3>
-										<p>Set up and managed Linux networking tools to monitor traffic, configure interfaces, and secure connections.</p>
-									</div>
-								</div>
-							</div>
+                <div class="social-links">
+                  <a href="https://github.com/bennetsharwin"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/bennetsharwin/"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.instagram.com/sh4rw1n/"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
 
-							<div class="iso-box automation col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/ai-am-1.webp" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">AI Powered Automation</h3>
-										<p>Integrated AI-powered automation to streamline repetitive tasks and enable intelligent decision-making at scale.</p>
-									</div>
-								</div>
-							</div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="hero-visual">
+                <div class="profile-container">
+                  <div class="profile-background"></div>
+                  <img src="assets/img/profile/profile.jpg" alt="Profile Image" class="profile-image">
+                  <div class="floating-elements">
+                    <div class="floating-icon icon-1"><i class="bi bi-palette"></i></div>
+                    <div class="floating-icon icon-2"><i class="bi bi-code-slash"></i></div>
+                    <div class="floating-icon icon-3"><i class="bi bi-lightbulb"></i></div>
+                    <div class="floating-icon icon-4"><i class="bi bi-graph-up"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-							<div class="iso-box linux col-md-3 col-sm-3 col-xs-12">
-								<div class="portfolio-thumb">
-									<img src="images/ports/linux-4.avif" class="fluid-img" alt="Recon Tool">
-									<div class="portfolio-overlay">
-										<h3 class="portfolio-item-title">Ethical Hacking using Kali</h3>
-										<p>Conducted ethical hacking using Kali Linux to identify vulnerabilities and assess system security posture.</p>
-									</div>
-								</div>
-							</div>
+          </div>
+        </div>
+      </div>
 
-							<!-- Add other projects here as needed, categorized under: html, photoshop, wordpress, mobile, automation -->
+    </section><!-- /Hero Section -->
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- END PORTFOLIO -->
+    <!-- About Section -->
+    <section id="about" class="about section">
 
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-	<!-- START RESUME -->
-	<section id="resume" class="tm-padding-top-bottom-100">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-sm-6">					
-					<h2 class="title">My <strong>Profile</strong></h2>
-					<p><span class="tm-info-label">Name</span> Bennet Sharwin</p>
-					<p><span class="tm-info-label">Birthday</span> April 26, 2007</p>
-					<p><span class="tm-info-label">Phone</span> +91 7994026917</p>
-					<p><span class="tm-info-label">Email</span> bennetsharwin001@gmail.com</p>
-					<p><span class="tm-info-label">Website</span> <a href="#" class="tm-red-text">#coming soon</a></p>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<h2 class="title"><strong>Some</strong> Skills</h2>
-					<p>Skilled in cybersecurity, automation, Linux systems, AI integration, and ethical hacking.</p>
-					<h4 class="tm-progress-label">Linux <small class="progress-percent-small">90%</small></h4>
-					<div class="progress tm-progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-					</div>
-					<h4 class="tm-progress-label">Cybersecurity<small class="progress-percent-small">80%</small></h4>
-					<div class="progress tm-progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-					</div>
-					<h4 class="tm-progress-label">AI<small class="progress-percent-small">80%</small></h4>
-					<div class="progress tm-progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END RESUME -->
+        <div class="row">
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-image">
+                  <img src="assets/img/profile/profile.jpg" alt="Profile Image" class="img-fluid">
+                </div>
+                <div class="profile-badge">
+                  <i class="bi bi-check-circle-fill"></i>
+                </div>
+              </div>
 
-	<!-- START ABOUT -->
-	<section id="about" class="tm-about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7">
-					<div class="title">
-						<h2>This is <strong>me</strong></h2>
-						<h1 class="tm-red-text"><strong>CyberSecurity</strong>  Aspirent</strong></h1>
-					</div>
-					<div class="bodytext">
-						<p>I’m a tech-driven problem solver passionate about cybersecurity, automation, and AI systems. From building LLM-based agents to securing Linux environments, I enjoy turning complex challenges into efficient, intelligent solutions.</p>
-						<p>Experienced with tools like Automation platforms, Kali Linux, and Arch, Raspberry Pi, Compliance, I specialize in automating workflows and enhancing digital security. I believe in learning by doing—and I build with purpose.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END ABOUT -->
+              <div class="profile-content">
+                <h3>Bennet Sharwin</h3>
+                <p class="profession">CyberSecurity Aspirent &amp; Developer</p>
 
-	<!-- START SOCIAL -->
-	<section id="social" class="tm-social">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.3s">
-					<div class="media facebook">
-						<a href="https://www.facebook.com/bennet.sharwin">
-							<div class="media-object pull-left">
-								<i class="fa fa-facebook"></i>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading tm-social-title">Follow me on</h4>
-								<h3>Social Facebook</h3>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.6s">
-					<div class="media linkedin">
-						<a href="https://www.linkedin.com/in/bennetsharwin">
-							<div class="media-object pull-left">
-								<i class="fa fa-linkedin"></i>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading tm-social-title">Connect on</h4>
-								<h3>Social LinkedIn</h3>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 wow rotateInUpLeft" data-wow-delay="0.9s">
-					<div class="media instagram">
-						<a href="https://www.instagram.com/sh4rw1n">
-							<div class="media-object pull-left">
-								<i class="fa fa-instagram"></i>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading tm-social-title">Follow me on</h4>
-								<h3>Social Instagram</h3>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END SOCIAL -->
+                <div class="contact-links">
+                  <a href="mailto:bennetsharwinoo1@gmail.com" class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    bennetsharwinoo1@gmail.com
+                  </a>
+                  <a href="tel:+917994026917" class="contact-item">
+                    <i class="bi bi-telephone"></i>
+                    +91 7994026917
+                  </a>
+                  <a href="#" class="contact-item">
+                    <i class="bi bi-geo-alt"></i>
+                    coming soon
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-	<!-- START CONTACT -->
-	<section id="contact" class="tm-contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">					
-					<h2 class="title">Drop <strong>me a line</strong></h2>
-					<hr>					
-				</div>
-				<div class="col-md-1 col-sm-1"></div>
-				<div class="col-md-10 col-sm-10">
-					<form action="https://formspree.io/f/movwegkr" method="POST">
-						<div class="col-md-6 col-sm-6">
-							<input class="form-control" type="text" placeholder="Your Name">
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<input class="form-control" type="email" placeholder="Your Email">
-						</div>
-						<div class="col-md-12 col-sm-12">
-							<input class="form-control" type="text" placeholder="Your Subject">
-							<textarea class="form-control" placeholder="Your Message" rows="6"></textarea>
-						</div>
-						<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-							<input class="form-control" type="submit" value="SHOOT MESSAGE">
-						</div>
-					</form>
-				</div>
-				<div class="col-md-1 col-sm-1"></div>
-				<!-- <div class="col-md-12 col-sm-12">
-					<p>Copyright &copy; 2018 Ultra Profile
-                    . design: <a rel="nofollow noopener" href="https://templatemo.com">template mo</a></p>
-				</div> -->
-			</div>
-		</div>
-	</section>
-	<!-- END CONTACT -->
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/jquery.nav.js"></script>
-	<script src="js/isotope.js"></script>
-	<script src="js/imagesloaded.min.js"></script>
-	<script src="js/custom.js"></script>
-<script>
-$(function() {
-  $('form[action^="https://formspree.io"]').submit(function(e) {
-    e.preventDefault();
-    var userName = $(this).find('input[type="text"]').eq(0).val();
-    var userEmail = $(this).find('input[type="email"]').val();
-    var userSubject = $(this).find('input[type="text"]').eq(1).val();
-    var userMessage = $(this).find('textarea').val();
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-content">
+              <div class="section-header">
+                <span class="badge-text">Get to Know Me</span>
+                <h2>Passionate About Creating Digital Experiences</h2>
+              </div>
 
-    $.ajax({
-      url: 'https://formspree.io/f/movwegkr',
-      method: 'POST',
-      data: {
-        name: userName,
-        email: userEmail,
-        subject: userSubject,
-        message: userMessage
-      },
-      dataType: 'json',
-      success: function() {
-        alert('Message sent!');
-        $('form')[0].reset();
-      },
-      error: function() {
-        alert('There was an error. Please try again.');
-      }
+              <div class="description">
+                <p>I'm a tech-driven problem solver passionate about cybersecurity, automation, and AI systems. From building LLM-based agents to securing Linux environments, I enjoy turning complex challenges into efficient, intelligent solutions.</p>
+
+                <p>Experienced with tools like Automation platforms, Kali Linux, and Arch, Raspberry Pi, Compliance, I specialize in automating workflows and enhancing digital security. I believe in learning by doing—and I build with purpose.</p>
+              </div>
+
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <div class="stat-number">10+</div>
+                  <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">3+</div>
+                  <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-number">100%</div>
+                  <div class="stat-label">Client Satisfaction</div>
+                </div>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Specialization</span>
+                    <span class="detail-value">Cybersecurity &amp; Automation</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Experience Level</span>
+                    <span class="detail-value">Entry Level</span>
+                  </div>
+                </div>
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="detail-label">Education</span>
+                    <span class="detail-value">coming soon</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Languages</span>
+                    <span class="detail-value">English, Malayalam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-section">
+                <a href="#" class="btn btn-primary">
+                  <i class="bi bi-download"></i>
+                  Download Resume
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                  <i class="bi bi-chat-dots"></i>
+                  Let's Talk
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="stats-wrapper">
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="150">
+                <div class="icon-wrapper">
+                  <i class="bi bi-emoji-smile"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="--" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Happy Clients</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="icon-wrapper">
+                  <i class="bi bi-journal-richtext"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="--" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projects</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="250">
+                <div class="icon-wrapper">
+                  <i class="bi bi-headset"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="--" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="icon-wrapper">
+                  <i class="bi bi-people"></i>
+                </div>
+                <span data-purecounter-start="0" data-purecounter-end="--" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div><!-- End Stats Item -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Skilled in cybersecurity, automation, Linux systems, AI integration, and ethical hacking.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+              <h3>Cybersecurity &amp; Systems</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Linux</h4>
+                    <span class="skill-percentage">63%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Cybersecurity</h4>
+                    <span class="skill-percentage">56%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>AI</h4>
+                    <span class="skill-percentage">56%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+              <h3>Programming &amp; Development</h3>
+              <div class="skills-animation">
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Frontend Web Designing</h4>
+                    <span class="skill-percentage">70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>Python</h4>
+                    <span class="skill-percentage">60%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h4>C</h4>
+                    <span class="skill-percentage">50%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <!-- Left column with summary and contact -->
+          <div class="col-lg-4">
+            <div class="resume-side" data-aos="fade-right" data-aos-delay="100">
+              <div class="profile-img mb-4">
+                <img src="assets/img/profile/profile.jpg" alt="Profile" class="img-fluid rounded">
+              </div>
+
+              <h3>Professional Summary</h3>
+              <p>Tech-driven problem solver passionate about cybersecurity, automation, and AI. I turn complex challenges into efficient solutions, specializing in automating workflows and enhancing digital security.</p>
+
+              <h3 class="mt-4">Contact Information</h3>
+              <ul class="contact-info list-unstyled">
+                <li><i class="bi bi-geo-alt"></i> coming soon</li>
+                <li><i class="bi bi-envelope"></i> bennetsharwinoo1@gmail.com</li>
+                <li><i class="bi bi-phone"></i> +91 7994026917</li>
+                <li><i class="bi bi-linkedin"></i> linkedin.com/in/bennetsharwin</li>
+              </ul>
+
+              <div class="skills-animation mt-4">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Frontend Web Designing</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Linux</span>
+                    <span>63%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Cybersecurity</span>
+                    <span>56%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="d-flex justify-content-between">
+                    <span>Python</span>
+                    <span>60%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right column with experience and education -->
+          <div class="col-lg-8 ps-4 ps-lg-5">
+            <!-- Experience Section -->
+            <div class="resume-section" data-aos="fade-up">
+              <h3><i class="bi bi-briefcase me-2"></i>Professional Experience</h3>
+
+              <div class="resume-item">
+                <h4>Senior Software Architect</h4>
+                <h5>2022 - Present</h5>
+                <p class="company"><i class="bi bi-building"></i> Tech Innovations Inc.</p>
+                <ul>
+                  <li>Lead the architectural design and implementation of enterprise-scale applications</li>
+                  <li>Mentor team of 12 developers and establish technical best practices</li>
+                  <li>Drive adoption of microservices architecture and cloud-native solutions</li>
+                  <li>Reduce system downtime by 75% through improved architecture and monitoring</li>
+                </ul>
+              </div>
+
+              <div class="resume-item">
+                <h4>Lead Developer</h4>
+                <h5>2019 - 2022</h5>
+                <p class="company"><i class="bi bi-building"></i> Digital Solutions Corp.</p>
+                <ul>
+                  <li>Spearheaded development of company's flagship product reaching 1M+ users</li>
+                  <li>Implemented CI/CD pipeline reducing deployment time by 60%</li>
+                  <li>Managed team of 8 developers across multiple projects</li>
+                  <li>Increased code test coverage from 45% to 90%</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <h3><i class="bi bi-mortarboard me-2"></i>Education</h3>
+
+              <div class="resume-item">
+                <h4>Master of Science in Computer Science</h4>
+                <h5>2017 - 2019</h5>
+                <p class="company"><i class="bi bi-building"></i> Stanford University</p>
+                <p>Specialized in Artificial Intelligence and Machine Learning. Graduated with honors.</p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Bachelor of Science in Software Engineering</h4>
+                <h5>2013 - 2017</h5>
+                <p class="company"><i class="bi bi-building"></i> MIT</p>
+                <p>Dean's List all semesters. Led university's coding club.</p>
+              </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
+              <h3><i class="bi bi-award me-2"></i>Certifications</h3>
+
+              <div class="resume-item">
+                <h4>AWS Certified Solutions Architect - Professional</h4>
+                <h5>2023</h5>
+              </div>
+
+              <div class="resume-item">
+                <h4>Google Cloud Professional Architect</h4>
+                <h5>2022</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row">
+            <div class="col-lg-3 filter-sidebar">
+              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
+                <ul class="portfolio-filters isotope-filters">
+                  <li data-filter="*" class="filter-active">All Projects</li>
+                  <li data-filter=".filter-cybersecurity">Cybersecurity</li>
+                  <li data-filter=".filter-automation">Automation</li>
+                  <li data-filter=".filter-ai">AI &amp; Machine Learning</li>
+                  <li data-filter=".filter-webdev">Web Development</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-9">
+              <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-portrait-1.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Photography</span>
+                        <h4>Capturing Moments</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-portrait-1.webp" class="glightbox" title="Capturing Moments"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Web Design</span>
+                        <h4>Woodcraft Design</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox" title="Woodcraft Design"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-automotive">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-portrait-2.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Automotive</span>
+                        <h4>Classic Beauty</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-portrait-2.webp" class="glightbox" title="Classic Beauty"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-nature">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-portrait-4.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Nature</span>
+                        <h4>Natural Growth</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-portrait-4.webp" class="glightbox" title="Natural Growth"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Photography</span>
+                        <h4>Urban Stories</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox" title="Urban Stories"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/img/portfolio/portfolio-6.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Web Design</span>
+                        <h4>Digital Experience</h4>
+                        <div class="portfolio-links">
+                          <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox" title="Digital Experience"><i class="bi bi-plus-lg"></i></a>
+                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+              </div><!-- End Portfolio Container -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="service-header">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-md-12">
+              <div class="service-intro">
+                <h2 class="service-heading">
+                  <div>Innovative business</div>
+                  <div><span>performance solutions</span></div>
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="service-summary">
+                <p>
+                  We integrate forward-thinking strategies, creative approaches, and state-of-the-art technologies to deliver exceptional customer experiences that drive growth and engage target markets.
+                </p>
+                <a href="services.html" class="service-btn">
+                  View All Services
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="#">
+                  Cybersecurity <span>Consulting</span>
+                </a>
+              </h3>
+              <p>
+                Protecting digital assets with advanced security assessments, penetration testing, and incident response strategies tailored for modern threats.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-robot"></i>
+              </div>
+              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="#">
+                  Automation <span>Solutions</span>
+                </a>
+              </h3>
+              <p>
+                Streamlining workflows and boosting productivity through custom automation scripts, bots, and process optimization for IT and business operations.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="#">
+                  AI &amp; Machine <span>Learning</span>
+                </a>
+              </h3>
+              <p>
+                Building intelligent systems and LLM-based agents to automate decision-making, enhance analytics, and deliver smarter digital experiences.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-terminal"></i>
+              </div>
+              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="#">
+                  Linux <span>Systems</span>
+                </a>
+              </h3>
+              <p>
+                Securing, configuring, and automating Linux environments for robust, scalable, and secure infrastructure management.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="#">
+                  Web <span>Development</span>
+                </a>
+              </h3>
+              <p>
+                Designing and developing modern, responsive web applications with a focus on security, usability, and performance.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card position-relative z-1">
+              <div class="service-icon">
+                <i class="bi bi-cloud-check"></i>
+              </div>
+              <a href="#" class="card-action d-flex align-items-center justify-content-center rounded-circle">
+                <i class="bi bi-arrow-up-right"></i>
+              </a>
+              <h3>
+                <a href="#">
+                  Cloud <span>Security</span>
+                </a>
+              </h3>
+              <p>
+                Implementing and auditing secure cloud architectures, ensuring compliance, and protecting data across distributed environments.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="testimonial-masonry">
+          <div class="testimonial-item" data-aos="fade-up">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>The automation scripts delivered saved us countless hours and made our IT operations nearly hands-free. The attention to security is unmatched.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-21.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Arjun Menon</h3>
+                  <span class="position">IT Operations Lead</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>We trusted our consultant with our cloud migration and security audit. The process was seamless, and our data is safer than ever.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-22.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Sophia Mathews</h3>
+                  <span class="position">Cloud Solutions Architect</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>The AI chatbot developed for us has transformed our customer support. It's fast, secure, and always improving.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-23.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Rahul Nair</h3>
+                  <span class="position">Product Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>Our website redesign was a huge success thanks to the developer's frontend expertise and focus on security best practices.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-24.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Meera George</h3>
+                  <span class="position">Digital Marketing Lead</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>The Linux server hardening guide became our go-to resource. Our infrastructure is now both robust and efficient.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-m-25.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Vishal Kumar</h3>
+                  <span class="position">Systems Administrator</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="testimonial-content">
+              <div class="quote-pattern">
+                <i class="bi bi-quote"></i>
+              </div>
+              <p>The cybersecurity workshop was eye-opening for our team. We now feel confident in our ability to defend against threats.</p>
+              <div class="client-info">
+                <div class="client-image">
+                  <img src="assets/img/person/person-f-26.webp" alt="Client">
+                </div>
+                <div class="client-details">
+                  <h3>Anjali Ramesh</h3>
+                  <span class="position">HR & Training Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box">
+              <h3>Contact Info</h3>
+              <ul class="contact-list list-unstyled">
+                <li class="contact-item mb-3 d-flex align-items-center">
+                  <span class="icon-box me-3"><i class="bi bi-person"></i></span>
+                  <span><strong>Name:</strong> Bennet Sharwin</span>
+                </li>
+                <li class="contact-item mb-3 d-flex align-items-center">
+                  <span class="icon-box me-3"><i class="bi bi-calendar-event"></i></span>
+                  <span><strong>Birthday:</strong> April 26, 2007</span>
+                </li>
+                <li class="contact-item mb-3 d-flex align-items-center">
+                  <span class="icon-box me-3"><i class="bi bi-telephone"></i></span>
+                  <span><strong>Phone:</strong> <a href="tel:+917994026917">+91 7994026917</a></span>
+                </li>
+                <li class="contact-item mb-3 d-flex align-items-center">
+                  <span class="icon-box me-3"><i class="bi bi-envelope"></i></span>
+                  <span><strong>Email:</strong> <a href="mailto:bennetsharwinoo1@gmail.com">bennetsharwinoo1@gmail.com</a></span>
+                </li>
+                <li class="contact-item d-flex align-items-center">
+                  <span class="icon-box me-3"><i class="bi bi-globe"></i></span>
+                  <span><strong>Website:</strong> <span style="color:#d35400">coming soon</span></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <h3>Get In Touch</h3>
+              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+
+              <form action="https://formspree.io/f/movwegkr" method="POST" id="contact-form">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+                  <div class="col-12 text-center">
+                    <div class="loading" style="display:none;">Loading</div>
+                    <div class="error-message" style="display:none;"></div>
+                    <div class="sent-message" style="display:none;">Your message has been sent. Thank you!</div>
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+    <div class="container">
+      <!-- Footer content removed as requested -->
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+  $(function() {
+    $('#contact-form').submit(function(e) {
+      e.preventDefault();
+      var userName = $(this).find('input[name="name"]').val();
+      var userEmail = $(this).find('input[name="email"]').val();
+      var userSubject = $(this).find('input[name="subject"]').val();
+      var userMessage = $(this).find('textarea[name="message"]').val();
+      var $form = $(this);
+      $form.find('.loading').show();
+      $form.find('.error-message').hide();
+      $form.find('.sent-message').hide();
+      $.ajax({
+        url: 'https://formspree.io/f/movwegkr',
+        method: 'POST',
+        data: {
+          name: userName,
+          email: userEmail,
+          subject: userSubject,
+          message: userMessage
+        },
+        dataType: 'json',
+        success: function() {
+          $form.find('.loading').hide();
+          $form.find('.sent-message').show();
+          $form[0].reset();
+        },
+        error: function() {
+          $form.find('.loading').hide();
+          $form.find('.error-message').show().text('There was an error. Please try again.');
+        }
+      });
     });
   });
-});
-</script>
+  </script>
+
 </body>
+
 </html>
